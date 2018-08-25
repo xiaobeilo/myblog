@@ -96,7 +96,7 @@
 	            <a href="#s1">分类</a>
 	                    <ul class="submenu">
 	                        <li>
-	                        <a class="category-link" href="/categories/Algorithm/">Algorithm</a>
+	                        <a class="category-link" href="/categories/404/">404</a>
 	                    </ul>
 	        </li>
 	        
@@ -104,30 +104,6 @@
 	        
 	        
 		        <!-- Pages 自定义   -->
-		        
-		        <li>
-		            <a href="/about/" title="简历">
-		                简历
-		            </a>
-		        </li>
-		        
-		        <li>
-		            <a href="/group/" title="团队">
-		                团队
-		            </a>
-		        </li>
-		        
-		        <li>
-		            <a href="/gallery/" title="图库">
-		                图库
-		            </a>
-		        </li>
-		        
-		        <li>
-		            <a href="/tag/" title="标签">
-		                标签
-		            </a>
-		        </li>
 		        
 		        <li>
 		            <a href="/gallery" title="图廊">
@@ -142,7 +118,7 @@
 			<ul class="icons">
                     
                     <li>
-                        <a title="github" href="https://github.com/miccall" target="_blank" rel="noopener">
+                        <a title="github" href="https://github.com/cMing404" target="_blank" rel="noopener">
                             <i class="icon fa fa-github"></i>
                         </a>
                     </li>
@@ -157,7 +133,7 @@
 </nav>
 
         <div id="main" >
-            <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://scontent-frt3-2.cdninstagram.com/vp/690e5c0bc6127d887167d06bd23a6bab/5C11C41E/t51.2885-15/e35/35540963_238693596718873_6161249268943290368_n.jpg?se=7&amp;ig_cache_key=MTgxNDI0MTQwNjY0NzgwMjM2OQ%3D%3D.2);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
                 <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >性能分析:js中如何快速交换两个变量的值?</h2></a>
             </div>
             <!-- Post -->
@@ -183,14 +159,14 @@
 <blockquote>
 <p>测试环境统一为node v6.60</p>
 </blockquote>
-<p>测试10次,统计平均结果如下(单位为ms):<br></p>
+<p>测试10次,统计平均结果如下(单位为ms):<br><img src="/images/sheet.jpg" alt=""></p>
 <blockquote>
 <p>结果很明显,es6的数组解构是最慢的.与其他四种方法速度差了将近10倍,其次是数组缓存的数据略慢于其他三种方法.</p>
 </blockquote>
 <p>那么,我们这次把数据加到1000W,这次不进行排序,所有数据统一执行交换操作.只测试三个速度最快的方法.代码如下:</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> count = <span class="number">1000000</span>;</span><br><span class="line"><span class="keyword">var</span> arr1 = [];</span><br><span class="line"><span class="keyword">var</span> arr2 = [];</span><br><span class="line"><span class="keyword">while</span>(count--)&#123;</span><br><span class="line">	arr1[arr1.length] = ~~(<span class="built_in">Math</span>.random()*<span class="number">10000</span>);</span><br><span class="line">	arr2[arr2.length] = ~~(<span class="built_in">Math</span>.random()*<span class="number">10000</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.time(<span class="string">'timer'</span>);</span><br><span class="line"><span class="keyword">var</span> len = arr1.length;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;len;i++)&#123;</span><br><span class="line">	<span class="comment">//数据交换</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.timeEnd(<span class="string">'timer'</span>);</span><br></pre></td></tr></table></figure>
 <p>测试结果如下(单位为ms):</p>
-
+<p><img src="/images/sheet2.jpg" alt=""></p>
 <blockquote>
 <p>结果还是能看出来的,声明temp值的方法速度是最快的!而且不限制数据类型!而且不限制数据类型!而且不限制数据类型!重要的事情说三遍!</p>
 </blockquote>

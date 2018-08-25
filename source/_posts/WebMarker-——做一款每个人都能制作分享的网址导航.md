@@ -2,6 +2,7 @@
 title: WebMarker ——做一款每个人都能制作分享的网址导航
 date: 2016-11-27 20:38:14
 tags: [作品]
+thumbnail: https://d-paper.i4.cn/max/2018/04/10/14/1523343462251_139391.jpeg
 ---
 
 一直喜欢收藏不错的网站,以至于书签栏建立了好多个文件夹和子文件夹,而且由于太多还分散到不同的浏览器上.
@@ -14,12 +15,12 @@ tags: [作品]
 
 >1、以Chrome浏览器为例，首先你选确认含有至少一个书签，然后点击 浏览器设置 - 书签 - 书签管理器，弹出页面后，点击 整理 - 从书签导出到HTML文件，保存至桌面。
 
-{% asset_img webmarker1.jpg webmarker1 %}
+![](/images/webmarker1.jpg)
 
 >2、直接将生成的HTML文件拖拽至当前页面内，网页会自动根据你的书签生成相应的页面。如下图:(不小心暴露了我的收藏夹:) )
 
-{% asset_img webmarker2.jpg webmarker2 %}
-{% asset_img webmarker3.jpg webmarker3 %}
+![](/images/webmarker2.jpg)
+![](/images/webmarker3.jpg)
 
 >3、在网页下方会出现输入框，你可以根据自己喜好生成相应的后缀名，后缀名格式遵循**js变量命名规范**(对,我是故意的)，也可以直接点击保存，后台会自动分配一个随机的后缀名给你。	
 

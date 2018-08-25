@@ -2,6 +2,8 @@
 title: '机智如我:利用canvas画布批处理图片'
 date: 2016-10-16 12:49:04
 tags: [机智如我,canvas,自动下载]
+thumbnail: http://pic5.photophoto.cn/20071029/0010023968667557_b.jpg
+
 ---
 
 放假在家中休息的时候,嫂子给了我一个好差事:`将她公司的照片文件按序号标注并且两张两张的形式合并为一张.`我大概数了一下,大概是6个文件夹,每个文件夹约有七八十张照片,这大概有四五百张的图片,如果每张按照ps来处理一下,得,我这假期不用过了.光处理这图片这假期都不够用的呢.
@@ -62,7 +64,7 @@ var batchImg = {
 ```
 好的,初始化完毕,我们来看看文件拖拽到canvas内是否可以读取到文件:
 
-{% asset_img fileList.png 读取图片 %}
+![图片链接](/images/file-list.png)
 
 ok!成功!
 
@@ -137,6 +139,7 @@ output:function(imgs){
 推荐使用new MouseEvent()的方法.可以实现浏览器的自动下载.
 
 {% asset_img GIF.gif 大功告成 %}
+![](/images/canvas-gif.gif)
 
 ### ok!大功搞成,我们来看看最终效果!
 

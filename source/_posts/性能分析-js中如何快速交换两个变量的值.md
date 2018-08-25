@@ -2,6 +2,7 @@
 title: '性能分析:js中如何快速交换两个变量的值?'
 date: 2016-11-28 18:24:30
 tags: [性能,排序]
+thumbnail: https://scontent-frt3-2.cdninstagram.com/vp/690e5c0bc6127d887167d06bd23a6bab/5C11C41E/t51.2885-15/e35/35540963_238693596718873_6161249268943290368_n.jpg?se=7&ig_cache_key=MTgxNDI0MTQwNjY0NzgwMjM2OQ%3D%3D.2
 ---
 
 本文主要探讨js中交换两个变量不同的方法,以及这些方法速度上的差异.
@@ -91,7 +92,7 @@ console.timeEnd('timer');
 >测试环境统一为node v6.60
 
 测试10次,统计平均结果如下(单位为ms):
-{% asset_img sheet.jpg sheet%}
+![](/images/sheet.jpg)
 
 > 结果很明显,es6的数组解构是最慢的.与其他四种方法速度差了将近10倍,其次是数组缓存的数据略慢于其他三种方法.
 
@@ -114,7 +115,7 @@ console.timeEnd('timer');
 ```
 测试结果如下(单位为ms):
 
-{% asset_img sheet2.jpg sheet%}
+![](/images/sheet2.jpg)
 
 > 结果还是能看出来的,声明temp值的方法速度是最快的!而且不限制数据类型!而且不限制数据类型!而且不限制数据类型!重要的事情说三遍!
 

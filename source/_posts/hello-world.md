@@ -1,38 +1,51 @@
 ---
-title: Hello World
+title: Hello world
+date: 2016-10-03 20:11:00
+tags:
+- 第一篇
+- 优软
+categories: 404
+thumbnail: http://pic.duowan.com/pc/1212/220555626507/220556734488.jpg
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+好久没有写文章了,一写又是一个新博客.哈哈..
 
-### Create a new post
+从以前喜欢折腾绿软和系统封装,直到现在爱上前端.觉得兴趣还是很重要的.
 
-``` bash
-$ hexo new "My New Post"
-```
+15年了解到前端的,那时已经是火的一塌糊涂了.其实在大学期间,就觉得好多网站的审美好像一夜之间全提升上来了,各种大图、页面特效一个比一个酷炫。那时前端这个字眼还是一个很新兴的词汇。直到我毕业后，前端这个词汇已经无孔不入了。
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+当真正知道了前端是一个什么样的概念的时候，我一下子就产生了兴趣。
 
-### Run server
+对，和当初热爱绿软和系统封装一样。
 
-``` bash
-$ hexo server
-```
+这么说起来，我要先整理一下之前博客的作品来压压惊。
 
-More info: [Server](https://hexo.io/docs/server.html)
+> * 360开机小助手 [新浪链接](http://blog.sina.com.cn/s/blog_87d3e22b0102vui4.html)
+> * QQ小火箭 [新浪博客](http://blog.sina.com.cn/s/blog_87d3e22b0102w1fi.html)
+> * 360软件管家 [新浪博客](http://blog.sina.com.cn/s/blog_87d3e22b0102vupu.html)
+> * 360补丁大师 [新浪博客](http://blog.sina.com.cn/s/blog_87d3e22b0102w3t6.html)
+> * 360加速球 [52pojie](http://www.52pojie.cn/thread-284676-1-1.html)
 
-### Generate static files
+还有一些系统好久没更新了,就不安利了,直接放上地址好了: [404OS](http://404os.lofter.com/)
 
-``` bash
-$ hexo generate
-```
+最初的博客是在建立在百度空间上的，然而百度这个不争气的家伙。。
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+后来转投到了新浪博客上。当然我还默默的建了一个Lofter..
 
-### Deploy to remote sites
+这都不算什么~其实我最喜欢的是52pojie
 
-``` bash
-$ hexo deploy
-```
+哈哈 因为这个论坛大神很多.交流很积极.能让更多的人知道我,了解我,的作品~.
 
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+现在已经在前端的路上,在工作之余,我也折腾出一个**音乐电台**.虽然界面不是很好看.但是功能还是很实用的!(适合一个人无聊的时候听听音乐,放松放松)
+
+直接放上地址!(这个时候突然想起来刮刮乐的梗,哈哈)
+
+[MyBGM](http://music.inmybgm.com)
+
+还有旧版:[五月天音乐电台](http:/music.inmybgm.com/v1)
+
+事实说明了一个问题:我与优秀的前端之间只差了一个UI.  23333333333
+
+好了.我的前端之路就这么开始了!(其实已经开始了,这会儿假装正式一点)
+
+望前辈们多多指教!
